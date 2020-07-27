@@ -12,6 +12,12 @@
 		3B2D5B1521B59FEC0062FA2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D5B1321B59FEC0062FA2C /* Main.storyboard */; };
 		3B2D5B1721B59FED0062FA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D5B1621B59FED0062FA2C /* Assets.xcassets */; };
 		3B2D5B1A21B59FED0062FA2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D5B1821B59FED0062FA2C /* LaunchScreen.storyboard */; };
+		3B45822421D80EFE0025288B /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B45822321D80EFE0025288B /* TakePhotoViewController.swift */; };
+		3B4899B02205023400B2A6EC /* MahjongClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B4899AF2205023400B2A6EC /* MahjongClassifier.mlmodel */; };
+		3B4B3D5C21BAB66400E2BB73 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B3D5B21BAB66400E2BB73 /* RoundedButton.swift */; };
+		3B65D02B21F8C7C100760B6A /* MahjongClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B65D02A21F8C7C100760B6A /* MahjongClassification.mlmodel */; };
+		3BB67C1C21B725850092DE2E /* MahjongScoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB67C1B21B725850092DE2E /* MahjongScoring.swift */; };
+		3BB67C1E21B72FBC0092DE2E /* MahjongTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB67C1D21B72FBC0092DE2E /* MahjongTile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		3B2D5B1621B59FED0062FA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B2D5B1921B59FED0062FA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B2D5B1B21B59FED0062FA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B45822321D80EFE0025288B /* TakePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
+		3B4899AF2205023400B2A6EC /* MahjongClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MahjongClassifier.mlmodel; sourceTree = "<group>"; };
+		3B4B3D5B21BAB66400E2BB73 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		3B65D02A21F8C7C100760B6A /* MahjongClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MahjongClassification.mlmodel; sourceTree = "<group>"; };
+		3BB67C1B21B725850092DE2E /* MahjongScoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongScoring.swift; sourceTree = "<group>"; };
+		3BB67C1D21B72FBC0092DE2E /* MahjongTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongTile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +66,17 @@
 		3B2D5B0E21B59FEC0062FA2C /* Mahjong Scoring */ = {
 			isa = PBXGroup;
 			children = (
+				3B4899AF2205023400B2A6EC /* MahjongClassifier.mlmodel */,
+				3B65D02A21F8C7C100760B6A /* MahjongClassification.mlmodel */,
+				3B45822321D80EFE0025288B /* TakePhotoViewController.swift */,
 				3B2D5B0F21B59FEC0062FA2C /* AppDelegate.swift */,
+				3B4B3D5B21BAB66400E2BB73 /* RoundedButton.swift */,
 				3B2D5B1121B59FEC0062FA2C /* ViewController.swift */,
 				3B2D5B1321B59FEC0062FA2C /* Main.storyboard */,
-				3B2D5B1621B59FED0062FA2C /* Assets.xcassets */,
+				3BB67C1B21B725850092DE2E /* MahjongScoring.swift */,
+				3BB67C1D21B72FBC0092DE2E /* MahjongTile.swift */,
 				3B2D5B1821B59FED0062FA2C /* LaunchScreen.storyboard */,
+				3B2D5B1621B59FED0062FA2C /* Assets.xcassets */,
 				3B2D5B1B21B59FED0062FA2C /* Info.plist */,
 			);
 			path = "Mahjong Scoring";
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB67C1C21B725850092DE2E /* MahjongScoring.swift in Sources */,
+				3B4B3D5C21BAB66400E2BB73 /* RoundedButton.swift in Sources */,
+				3B4899B02205023400B2A6EC /* MahjongClassifier.mlmodel in Sources */,
 				3B2D5B1221B59FEC0062FA2C /* ViewController.swift in Sources */,
+				3BB67C1E21B72FBC0092DE2E /* MahjongTile.swift in Sources */,
+				3B45822421D80EFE0025288B /* TakePhotoViewController.swift in Sources */,
 				3B2D5B1021B59FEC0062FA2C /* AppDelegate.swift in Sources */,
+				3B65D02B21F8C7C100760B6A /* MahjongClassification.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
