@@ -8,6 +8,8 @@
 
 支持所有81个番种。
 
+---
+
 An iOS app for calculating mahjong scores ([Chinese official competition rules](https://en.wikipedia.org/wiki/Mahjong_Competition_Rules)).
 
 (Currently only in chinese, english version will be added in the future.)
@@ -15,5 +17,23 @@ An iOS app for calculating mahjong scores ([Chinese official competition rules](
 The Mahjong Competition Rule, is characterised by dozens of possible combinations and a rather complex and inventive set of patterns. One of the majoy difficulties for beginners is to regconize patterns and calculate the corresponding scores. This iOS app helps to do all the calculation and you just need to specify the 14 tiles when you win. It can be used in games, as well as learning the competitional rules. 
 
 All 81 patterns are supported.
+
+---
+
+An example of Mixed Shifted Chows (三色三步高):
+
+![](pics_md/Mixed_Shifted_Chows.gif)
+
+An example of Full Flush (清一色) and Three Concealed Pung (三暗刻):
+
+![](pics_md/Full_Flush.gif)
+
+An example of Thirteen Orphans (十三幺):
+
+![](pics_md/Thirteen_Orphans.gif)
+
+---
+
+You can watch the full video here:
 
 [![](pics_md/mahjong_scorer.png)](https://vimeo.com/442052152 "Mahjong Scorer - Click to Watch!")
